@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tailwind CSS</title>
+</head>
+
+<style>
+  a,
+  p,
+  h1 {
+    color: #3E332C;
+  }
+</style>
+
+<body>
+
+  <header>
+    <div class="container mx-auto py-3 px-5">
+      <div class="block md:flex justify-between">
+        <a href="#" class="text-3xl">Sarunk</a>
+        <ul class="flex justify-between items-center my-3 md:my-0">
+          <li class="md:mx-3 border-b hover:border-gray-700"><a href="#">Home</a></li>
+          <li class="md:mx-3 border-b hover:border-gray-700"><a href="#">Partner</a></li>
+          <li class="md:mx-3 border-b hover:border-gray-700"><a href="#">Pricing</a></li>
+          <li class="md:mx-3 border-b hover:border-gray-700"><a href="#">Gallery</a></li>
+          <li class="md:mx-3 border-b hover:border-gray-700"><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="container mx-auto py-3 px-5 mt-6">
+    <div class="grid grid-cols-1 md:grid-cols-3">
+      <div class="grid grid-flow-row justify-items-center">
+        <div class="w-1/2"><img src="../assets/cat.jpg" alt="Cat" class="rounded-full"></div>
+        <div class="px-6">
+          <h1 class="text-3xl my-4">Cat</h1>
+          <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit aut obcaecati numquam
+            minus accusamus veniam
+            nam sint perspiciatis.</p>
+        </div>
+      </div>
+      <div class="grid grid-flow-row justify-items-center my-10 md:my-0">
+        <div class="w-1/2"><img src="../assets/face.jpg" alt="Face" class="rounded-full"></div>
+        <div class="px-6">
+          <h1 class="text-3xl my-4">Smiley Face</h1>
+          <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit aut obcaecati numquam
+            minus accusamus veniam
+            nam sint perspiciatis.</p>
+        </div>
+      </div>
+      <div class="grid grid-flow-row justify-items-center">
+        <div class="w-1/2"><img src="../assets/card.jpg" alt="Card" class="rounded-full"></div>
+        <div class="px-6">
+          <h1 class="text-3xl my-4">As Card</h1>
+          <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit aut obcaecati numquam
+            minus accusamus veniam
+            nam sint perspiciatis.</p>
+        </div>
+      </div>
+      <div class="grid grid-flow-row px-6 my-8 justify-center text-center">
+        <h1 class="text-6xl">500K</h1>
+        <p>Active User.</p>
+      </div>
+      <div class="grid grid-flow-row px-6 my-8 justify-center text-center">
+        <h1 class="text-6xl">$10</h1>
+        <p>Monthly Paid.</p>
+      </div>
+      <div class="grid grid-flow-row px-6 my-8 justify-center text-center">
+        <h1 class="text-6xl">12.9%</h1>
+        <p>Economy + Test Card.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
